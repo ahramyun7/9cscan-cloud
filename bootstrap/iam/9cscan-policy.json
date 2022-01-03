@@ -30,7 +30,10 @@
         "states:StartExecution",
         "states:CreateStateMachine",
         "cloudformation:*",
-        "lambda:CreateEventSourceMapping"
+        "lambda:CreateEventSourceMapping",
+        "lambda:InvokeFunction",
+        "lambda:UpdateFunctionCode",
+        "lambda:UpdateFunctionConfiguration"
       ],
       "Resource": "*"
     },
